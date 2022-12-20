@@ -1,0 +1,7 @@
+wScheduling Type: Batch
+Scheduling Name: Earliest Deadline First
+Simulation Run Time: 1000
+Process #	CPU Time	CPU Completed	Arrival time	All time
+0			500 (ms)	500 (ms)		0 (ms)			970
+1			1500 (ms)	1500 (ms)		0 (ms)			2150
+2			90 (ms)		90 (ms)			100 (ms)		390
