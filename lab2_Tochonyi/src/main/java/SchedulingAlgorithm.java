@@ -18,11 +18,11 @@ public class SchedulingAlgorithm {
 
       while (completed < processVector.size()) {
         process = getNextProcess(processVector);
-        process.all_time = compTime;
         if (process == null) {
           // All processes have completed or the list is empty
           break;
         }
+        process.all_time = compTime;
         process.cpu_done++;
         process.deadline--;
         compTime++;
